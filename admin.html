@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Admin</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: antiquewhite;
+        }
+        main {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .form > * {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Painel de Administrador</h1>
+        <form class="form" method="post" action="admin.html">
+            <div>
+                <label>Usuário:</label> <input class="userInput" type="text">
+            </div>
+            <div>
+                <label>Senha:</label> <input class="passwordInput" type="password" autocomplete="on">
+            </div>
+            
+            <input class="button" type="submit" value="Enviar">
+        </form>
+        <a href="/">Retornar</a>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

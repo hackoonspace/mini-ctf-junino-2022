@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Hanna</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="script" type="text/javascript" href="./obscure.js">
+</head>
+<body>
+    <header>
+        <ul class="header-list">
+            <li class="header-list-item"><a href="#inicio">Início</a></li>
+            <li class="header-list-item"><a href="#sobre">Sobre</a></li>
+            <li class="header-list-item"><a href="#how-to">Como usar</a></li>
+            <li class="header-list-item"><a href="#more-info">Mais detalhes</a></li>
+        </ul>
+    </header>
+    <main id="inicio">
+        <h1 class="hover-title">Project Hanna - site v1.0</h1>
+        <h2 class="blink-color">WOW, MUCH GRAPHICS !!</h2>
+        <img src="./images/waifu.png" height="500px">
+        <div id="sobre">
+            <h3>Sobre mim</h3>
+            <p>lol, me chamo Hanna</p>
+        </div>
+        <img class="rotate-image" src="./images/doge.jpg" height="400px">
+        <div id="how-to">
+            <h3>Como usar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum enim finibus posuere scelerisque. Proin eu aliquam lorem. Donec egestas at ex sit amet semper. Duis in tincidunt augue. Etiam tempor ex ut purus tristique, nec hendrerit orci mattis. Etiam dictum neque non tortor ullamcorper efficitur. Donec quis mauris suscipit, aliquet urna in, feugiat lectus. Nullam scelerisque pretium ante, ac eleifend velit pharetra at. Nam et neque sed tellus facilisis luctus a pellentesque sem. Etiam scelerisque nisi ut justo ultricies fringilla eget sed elit. Cras accumsan imperdiet urna, eu feugiat leo aliquam ut. Nullam vehicula ex in accumsan fringilla. Phasellus sagittis egestas auctor. Cras commodo ultricies nibh, vitae elementum erat rhoncus at. Aenean pulvinar diam eget orci porttitor scelerisque. Donec viverra enim eu sapien venenatis, eget pretium sem vulputate.</p>
+            <p>Nullam massa risus, scelerisque eu orci eu, faucibus convallis lorem. Phasellus pretium ultrices dapibus. Pellentesque pretium eros id auctor fringilla. Phasellus maximus cursus purus at fermentum. Proin vitae posuere libero. Etiam viverra, nisl pulvinar maximus scelerisque, quam felis viverra velit, eu tempor arcu est a nibh. Phasellus gravida ultrices sapien, sit amet fringilla eros accumsan vel. Vestibulum maximus rhoncus convallis. Aliquam rutrum dolor ante, porttitor bibendum massa rhoncus ut. Sed sed lacinia quam, ac interdum enim.</p>
+            <div style="display: none">consertar /robots.txt pfv</div>
+            <p>Nunc justo lorem, tincidunt ac blandit ut, aliquet ullamcorper neque. Sed quis neque sed metus fringilla luctus ut ut leo. Etiam iaculis, nisi vitae pellentesque sagittis, ante lacus sagittis nunc, eget accumsan dui ligula at arcu. Suspendisse ultrices cursus rhoncus. Mauris ut commodo lacus. Aenean gravida enim sed dolor molestie, sed suscipit enim fermentum. Donec sed sodales metus. Pellentesque sollicitudin elementum lacus, eu congue dolor ornare et. Nunc eros elit, elementum quis eros sed, lacinia commodo urna.</p>
+            <p>Duis id arcu in lacus dapibus tempor. Curabitur faucibus lacus sit amet orci malesuada, sit amet placerat velit scelerisque. Donec laoreet nisi velit, quis congue eros fringilla sed. Nulla nunc augue, ultricies quis hendrerit et, consequat placerat eros. Morbi ante felis, sodales eget dui a, cursus pretium nunc. Phasellus vitae nunc a dui aliquam sagittis porttitor et diam. Nam vitae purus vel quam egestas rutrum. Phasellus pretium varius nisl ac congue. Sed auctor euismod ultricies. Nunc a felis metus. Morbi aliquam sem id blandit iaculis. Nunc suscipit dapibus felis, vel sagittis libero pellentesque at. Fusce facilisis feugiat aliquet. Nam non erat eu elit suscipit tincidunt eu eu eros.</p>
+            <p>Nulla lacus purus, fringilla vel turpis a, vestibulum egestas neque. Donec fringilla turpis augue, et tristique metus malesuada in. Aliquam auctor ornare enim id semper. In blandit commodo odio tempor porttitor. Phasellus sit amet magna nulla. Vivamus eget sollicitudin neque, sit amet tristique lorem. Sed pulvinar neque augue, at porta sem euismod id.</p>
+        </div>
+        <h2 class="blink-color">COMPRE UMA HANNA RECEBA 2 BITCOIN</h2>
+        <div id="more-info">
+            <h3>Quer saber mais?</h3>
+            <p>Não. Vai caga</p>
+        </div>
+        <img class="zoom-rotate-image" src="./images/chibi.png" height="400px">
+        <h2 class="blink-color">SIM, É SÓ ISSO O SITE</h2>
+    </main>
+    <footer>
+        <a href="https://github.com/InfiniteMarcus" target="__blank">@InfiniteMarcus</a> - 2022
+    </footer>
+    <script>
+        const hoverTitle = document.querySelector(".hover-title");
+
+        hoverTitle.addEventListener("click", event => {
+            const audio = new Audio("ping.mp3");
+            audio.play().then().catch(e => console.log(""));
+        });
+    </script>
+    <!-- FLAG{hackabasics101} -->
+</body>
+</html>

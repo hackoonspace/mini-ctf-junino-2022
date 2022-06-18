@@ -1,8 +1,10 @@
-# Flags
-- FLAG{HACKAZIKAD+} - no robots.txt
-- FLAG{hackabasics101} - escondido nas tags html
-- flag{metadadosuau} - escondido no icon
-- vbqw{suiqhuhqteyte} - encriptado com caesar 16 no icon
-- mlcq{jwtwcetizahkrc} - encriptado com vigenere chave hackoonspace, ta escondido no javascript
-- flag{quequeehisso} - imagem transformada em texto que se encontra no admin após inserir tudo certo
-- flag{codigominificado} - lá no obscure.js
+# Desafio - mini-CTF de Festa Junina do Hackoon - 2022
+
+## Lista de Flags
+- FLAG{HACKAZIKAD+} - No /robots.txt
+- FLAG{hackabasics101} - Escondido nas tags HTML
+- flag{metadadosuau} - Escondido nos metadados do icone do site
+- flag{cesareradoido} - Escondido e encriptado nos metadados do icone do site, com Cifra de César e chave 16
+- flag{vigeneresafado} - Escondido nos arquivos .js, encriptado com Vigenere e chave "hackoonspace"
+- flag{quequeehisso} - Escondido em imagem transformada em texto que se encontra no admin após inserir login correto
+- flag{codigominificado} - Escondido no arquivo obscure.js
